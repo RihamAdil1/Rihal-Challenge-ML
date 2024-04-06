@@ -61,6 +61,34 @@ This project aims to solve the challenges faced by Rihal Company which it consis
   
 
   ## <small>Approach 3: Generate captions for each news article's image that accurately reflect the content.</small>
+  ### <small>1.Data Preprocessing.</small>
+* For text(headline,Abstract and Caption will be extracted and tekonized).
+* For images, images will be extracted,resized and normalized and then will undergoe to ResNet Model to extract the important features.
+
+   ### <small>2.Model Architecture.</small>
+* Input Layers will be Defined( headline, abstract, and image features).
+* embedding layers to encode headline and abstract inputs.
+* using LSTM units to encode headline and abstract sequences.
+* Concatenate LSTM outputs with image features.
+* attention mechanism will be applied  to focus on relevant features.
+* Decoding attention output sequences.
+* a dense layer with softmax activation for caption generation will be performed.
+* Define model with inputs and output.
+*Compiling  the model with optimizer and loss function.
+
+  ### <small>3.Model Training.</small>
+*the number of epochs and batch size for training will be setermined and adjusted as needed.
+* fitting training data into model.
+* Evaluating the model on the validation data during the training.
+* Monitoring the training progress and performance on the validation set.
+
+  ### <small>4.Model Evaluation.</small>
+* Generating captions for the testing set.
+* Preparing reference and generated captions.
+* Compute BLEU score (evaluation metric).
+
+
+
   
 
 ## Setup
