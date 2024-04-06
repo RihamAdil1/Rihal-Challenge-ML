@@ -29,18 +29,18 @@ This project aims to solve the challenges faced by Rihal Company which it consis
 ## Approaches:
 
 ## <small>Approach 2: Generate abstracts that provide a clear and concise summary of the article.</small>
-### <small>1.Data Preprocessing.</small>
+  ### <small>1.Data Preprocessing.</small>
 * Extract the article bodies and corresponding abstracts from the dataset.
 * Apply tokenization to convert the text data into sequences of tokens.
 * Fit the Tokenizer on both articles and abstracts to build the vocabulary and convert words to indices.
 
-  ### <small>2.Model Architecture.</small>
+   ### <small>2.Model Architecture.</small>
 * The encoder consists of an embedding layer followed by an LSTM layer.
 * The decoder also consists of an embedding layer and an LSTM layer.
 * An attention mechanism is incorporated to help the decoder focus on relevant parts of the input sequence during decoding.
 * The model predicts the next token in the sequence using a softmax activation function.
 
- ### <small>3.optimization and loss function.</small>
+  ### <small>3.optimization and loss function.</small>
 * The model is compiled using the Adam optimizer and sparse categorical cross-entropy loss function.
 
   ### <small>4.Training stage.</small>
@@ -53,7 +53,7 @@ This project aims to solve the challenges faced by Rihal Company which it consis
 * A separate validation dataset will be used to evaluate the model's performance during training.
 * After each epoch, the model's performance on the validation dataset will be assessed using the evaluate method to compute the loss.
 
- ### <small>5.Adjustments and Tuning:.</small>
+  ### <small>5.Adjustments and Tuning:.</small>
  * batch size, sequence length, and the number of epochs will be adjusted
  * Hyperparameter tuning and experimentation until get the optimal model
 
