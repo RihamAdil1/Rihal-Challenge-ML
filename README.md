@@ -5,12 +5,17 @@
 This challenge for Rihal.om
 https://github.com/rihal-om/rihal-codestacker/tree/main/ML
 
+## Introduction
+In today's digital age, the abundance of news articles available online has led to an overwhelming amount of information for readers to navigate. With such a flood of content, finding relevant news has become increasingly challenging. Consequently, there is a growing demand for effective news classification systems, which are vital tools for organizing and accessing important content with ease.
+
+Furthermore, there is an urgent need for systems capable of captioning images, providing clear and concise descriptions that aid in understanding and engagement. Additionally, there is an increasing desire for systems that can generate abstracts from the main body of articles, condensing the key points into brief summaries for easy consumption and understanding.
+
 
 
 ## Description
 
 This project aims to solve the challenges faced by Rihal Company which it consists of 5 research questions:
-### RQ1: Develop a model that can categorize news articles into their respective categories.
+RQ1: Develop a model that can categorize news articles into their respective categories.
 ### RQ2: Generate abstracts that provide a clear and concise summary of the article.
 ### RQ3: Generate captions for each news article's image that accurately reflect the content.
 ### RQ4: Implement a real-time UI web app for inference where it allows the user to upload an article body, image, and a title, and then return its category, a caption, and an abstract (you could use tools such as Streamlit or Gradio).
