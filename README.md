@@ -64,7 +64,7 @@ This project aims to solve the challenges faced by Rihal Company which it consis
   
 
   ## <small>Approach 3: Generate captions for each news article's image that accurately reflect the content.</small>
-  ### <small>1.Data Preprocessing.</small>
+   ### <small>1.Data Preprocessing.</small>
 * For text(headline,Abstract and Caption will be extracted and tekonized).
 * For images, images will be extracted,resized and normalized and then will undergoe to ResNet Model to extract the important features.
 
