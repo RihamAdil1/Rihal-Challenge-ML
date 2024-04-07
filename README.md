@@ -90,6 +90,12 @@ This project aims to solve the challenges faced by Rihal Company which it consis
 * Preparing reference and generated captions.
 * Compute BLEU score (evaluation metric).
 
+  ## References
+
+- N24News: A New Dataset for Multimodal News Classification
+  - Paper Link: [https://arxiv.org/abs/2108.13327](https://arxiv.org/abs/2108.13327)
+
+
 
 
   
