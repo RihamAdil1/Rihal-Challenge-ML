@@ -21,12 +21,9 @@ This project aims to solve the challenges faced by Rihal Company which it consis
 ### RQ4: Implement a real-time UI web app for inference where it allows the user to upload an article body, image, and a title, and then return its category, a caption, and an abstract (you could use tools such as Streamlit or Gradio).
 ### RQ5:Detect if the news article is related to Palestine and categorize it under a new subcategory called "FreePalestine".
 
-## Notebooks
-[`notebook1.ipynb`](path_to_notebook1.ipynb): This notebook contains data preprocessing steps.
-
-
-1. `notebook1.ipynb`: This notebook contains data preprocessing steps.
-2. [`notebook2.ipynb`]([path_to_notebook1.ipynb](https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS)): This notebook contains code of generating abstracts from Article body
+## Notebooks:
+1. [`notebook2.ipynb`]([path_to_notebook1.ipynb](https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS)): This notebook contains code of generating abstracts from Article body
+2. 
 3. 
 4. `notebook3.ipynb`: This notebook showcases results and analysis.
    ----------------------------------------------------------------------------------------------------------------------------------------------
