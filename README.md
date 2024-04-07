@@ -15,7 +15,7 @@ Furthermore, there is an urgent need for systems capable of captioning images, p
 ## Description
 
 This project aims to solve the challenges faced by Rihal Company which it consists of 5 research questions:
-RQ1: Develop a model that can categorize news articles into their respective categories.
+### RQ1: Develop a model that can categorize news articles into their respective categories.
 ### RQ2: Generate abstracts that provide a clear and concise summary of the article.
 ### RQ3: Generate captions for each news article's image that accurately reflect the content.
 ### RQ4: Implement a real-time UI web app for inference where it allows the user to upload an article body, image, and a title, and then return its category, a caption, and an abstract (you could use tools such as Streamlit or Gradio).
