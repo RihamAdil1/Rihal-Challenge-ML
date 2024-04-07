@@ -10,7 +10,8 @@ In today's digital age, the abundance of news articles available online has led 
 
 Furthermore, there is an urgent need for systems capable of captioning images, providing clear and concise descriptions that aid in understanding and engagement. Additionally, there is an increasing desire for systems that can generate abstracts from the main body of articles, condensing the key points into brief summaries for easy consumption and understanding.
 
-
+## N24News Dataset 
+The N24News dataset, sourced from the New York Times, encompasses articles spanning diverse topics and is meticulously organized into training, validation, and testing sets. Comprising textual data stored in JSON files, each article contains essential attributes such as section, headline, abstract, body, image caption, image link, and image ID. Additionally, image dataset  includes 60,000 images extracted from the articles in one folder, sorted into folders corresponding to their respective articles using image IDs in text dataset. 
 
 ## Description
 
@@ -95,12 +96,39 @@ This project aims to solve the challenges faced by Rihal Company which it consis
 
 ## Setup
 
-### Prerequisites
+### Environment
+
+The code in this repository is executed on Google Colab due to high computational requirements and limited hardware capabilities. Separate notebooks are provided for each research question (RQ1, RQ2, RQ3, RQ5) to facilitate organization and clarity.
+
+### Data Preparation
+
+- **Image Splitting**: With 60,000 images stored in a single folder,  the dataset was splitted into three subsets: train, validation, and test, following an 8:1:1 ratio (splitting done locally).
+- **Compression and Upload**: The subsets were compressed locally and uploaded to Google Drive for ease of access and storage.
+- **Organizing Images**: The image_id attribute in the text dataset was leveraged to distinguish between images and organize them into separate folders based on their IDs.
+
+### Execution
+
+- Each notebook contains code tailored to address specific research questions (RQ1, RQ2, RQ3, RQ5). Detailed comments and explanations are provided throughout the code to enhance understanding.
+
+
+## Dependencies
 
 Before running this project, ensure that you have Python installed on your system.
-these notebooks has been runned on google colab 
-To run this project locally, make sure you have Python installed. Then, install the required dependencies using:
 
-```bash
-pip install -r requirements.txt
+### Running Locally
+
+To run this project locally, follow these steps:
+
+1. **Install Python**: Make sure you have Python installed on your system.
+
+2. **Install Dependencies**: Install the required dependencies by running the following command in your terminal:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+### Google Colab
+
+These notebooks have been run on Google Colab, which provides access to necessary computational resources. Simply upload the notebooks to your Google Drive and open them in Google Colab for execution.
+
 
