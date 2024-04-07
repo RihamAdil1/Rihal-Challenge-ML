@@ -22,7 +22,7 @@ This project aims to solve the challenges faced by Rihal Company which it consis
 ### RQ5:Detect if the news article is related to Palestine and categorize it under a new subcategory called "FreePalestine".
 
 ## Notebooks:
-1. [`notebook2.ipynb`]([path_to_notebook1.ipynb](https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS)): This notebook contains code of generating abstracts from Article body
+1. [notebook2.ipynb](https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS)
 2. 
 3. 
 4. `notebook3.ipynb`: This notebook showcases results and analysis.
