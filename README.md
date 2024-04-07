@@ -23,6 +23,8 @@ This project aims to solve the challenges faced by Rihal Company which it consis
 ### RQ5:Detect if the news article is related to Palestine and categorize it under a new subcategory called "FreePalestine".
 
 ## Notebooks:
+This repository contains multiple notebooks, each addressing specific research questions (RQ1, RQ2, RQ3, RQ5). Please note that EDA (Exploratory Data Analysis) is performed only in the first notebook.
+
 1. [notebook2.ipynb](https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS)
 2. 
 3. 
