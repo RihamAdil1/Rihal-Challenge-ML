@@ -25,12 +25,51 @@ This project aims to solve the challenges faced by Rihal Company which it consis
 ## Notebooks:
 This repository contains multiple notebooks, each addressing specific research questions (RQ1, RQ2, RQ3, RQ5). Please note that EDA (Exploratory Data Analysis) is performed only in the first notebook.
 
-1. [notebook2.ipynb](https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS)
-2. 
+1. [notebook1.ipynb](https://colab.research.google.com/drive/1wFPTMQuH2Y_zf6EpmsFdLTP4nxXBpenX#scrollTo=UYuR6rT52oDe))
+2. [notebook2.ipynb](https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS)
 3.
 4. [notebook4.ipynb](https://colab.research.google.com/drive/1ahCQeBJIHPTJxgQoo0rsjTCIkvUzW8v4)
 
 ## Approaches:
+
+
+## <small>Approach 1: Develop a model that can categorize news articles into their respective categories..</small>
+
+  ### <small>1.Data Preprocessing.</small>
+* Article bodies and corresponding abstracts will be extracted from the dataset.
+* Tokenizing  the text data to convert them into sequences of tokens.
+* the Tokenizer will be fitted on both articles and abstracts to build the vocabulary and convert words to indices.
+
+   ### <small>2.Model Architecture.</small>
+* A multimodal architecture with two feature extraction models will utilized : Vision Transformer (ViT) and RoBERTa.
+* ViT is pre-trained on imagenet2012 and consists of a Resnet-50 and a base version of vision transformer with 12 layers transformer encoder.
+* RoBERTa is also a base version and consists of 12 layers transformer encoder.
+*  image features and text features will be captured separately using ViT and RoBERTa.
+* Concatenate the text and image features.
+* Three multilayer perceptrons (MLPs) will be used to predict the label for image feature, text feature, and fused feature separately.
+
+  ### <small>3.optimization and loss function.</small>
+* The model is compiled using the Adam optimizer and sparse categorical cross-entropy loss function.
+
+  ### <small>4.Training stage.</small>
+* The model will be trained in a loop over 10 epochs (can be adjusted).
+* Shuffle the data and feed batches of input-output pairs into the model for training.
+* Trimming or padding the encoder and decoder input sequences to ensure a consistent length.
+
+  ### <small>5.Validation stage.</small>
+* A separate validation dataset to evaluate the model's performance during training.
+* Assessing the model's performance on the validation dataset after each epoch using the evaluate method to compute the loss.
+
+   ### <small>6.Model Evaluation.</small>
+* predict the category by the model.
+* evaluate the model using F1 score (evaluation metric).
+
+  ### <small>7.Adjustments and Tuning:.</small>
+ * batch size, sequence length, and the number of epochs will be adjusted until optimization function converges.
+* hyperparameter tuning and experimentation will be performed  until the optimal model is achieved.
+
+
+  
 
 ## <small>Approach 2: Generate abstracts that provide a clear and concise summary of the article.</small>
 
@@ -57,6 +96,7 @@ This repository contains multiple notebooks, each addressing specific research q
   ### <small>5.Validation stage.</small>
 * A separate validation dataset will be used to evaluate the model's performance during training.
 * After each epoch, the model's performance on the validation dataset will be assessed using the evaluate method to compute the loss.
+
 
   ### <small>6.Adjustments and Tuning:.</small>
  * batch size, sequence length, and the number of epochs will be adjusted
