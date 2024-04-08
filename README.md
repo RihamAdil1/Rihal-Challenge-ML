@@ -25,9 +25,9 @@ This project aims to solve the challenges faced by Rihal Company which it consis
 ## Notebooks:
 This repository contains multiple notebooks, each addressing specific research questions (RQ1, RQ2, RQ3, RQ5). Please note that EDA (Exploratory Data Analysis) is performed only in the first notebook.
 
-1. [notebook1.ipynb](https://colab.research.google.com/drive/1wFPTMQuH2Y_zf6EpmsFdLTP4nxXBpenX#scrollTo=UYuR6rT52oDe))
+1. [notebook1.ipynb](https://colab.research.google.com/drive/1wFPTMQuH2Y_zf6EpmsFdLTP4nxXBpenX#scrollTo=UYuR6rT52oDe)
 2. [notebook2.ipynb](https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS)
-3.
+3.[notebook3.ipynb](https://colab.research.google.com/drive/1__40rlTsn6DevCbuxu10N-ilDhH_VrNX)
 4. [notebook4.ipynb](https://colab.research.google.com/drive/1ahCQeBJIHPTJxgQoo0rsjTCIkvUzW8v4)
 
 ## Approaches:
