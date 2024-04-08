@@ -28,7 +28,8 @@ This repository contains multiple notebooks, each addressing specific research q
 1. [notebook2.ipynb](https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS)
 2. 
 3. 
-4. `notebook3.ipynb`: This notebook showcases results and analysis.
+4. `[notebook4.ipynb]([https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS](https://colab.research.google.com/drive/1ahCQeBJIHPTJxgQoo0rsjTCIkvUzW8v4)).
+5. 
    ----------------------------------------------------------------------------------------------------------------------------------------------
    
 ## Approaches:
@@ -92,6 +93,23 @@ This repository contains multiple notebooks, each addressing specific research q
 * Preparing reference and generated captions.
 * Compute BLEU score (evaluation metric).
 
+
+ ## <small>Approach 5:Detect if the news article is related to Palestine and categorize it under a new subcategory called "FreePalestine"..</small>
+   ### <small>1.Data Preprocessing.</small>
+* For text,extract abstract from all articles(clean, remove stpwords,tekonize and vectorize them using Bag of words technique.
+* construct a new variable label classify  "FreePlestine" or "other" based on the technique explained in the notebook .
+
+   ### <small>2.Model selection.</small>
+* Naive Bayes.
+
+  ### <small>3.Model Training.</small>
+* the model is trained using training dataset.
+* Cross validation is done during training stage
+
+  ### <small>4.Model Evaluation.</small>
+* F1 score (evaluation metric) as irt is a harmonic measure between precision and recall.
+* model needs more refinemnt and hypertunining 
+  
   ## References
 
 - N24News: A New Dataset for Multimodal News Classification
