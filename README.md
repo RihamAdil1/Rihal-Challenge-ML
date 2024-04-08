@@ -28,10 +28,8 @@ This repository contains multiple notebooks, each addressing specific research q
 1. [notebook2.ipynb](https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS)
 2. 
 3. 
-4. [notebook4.ipynb]([https://colab.research.google.com/drive/1_CUOKjuVvRKgrmlJEI2wVn-L9bon8s4b#scrollTo=Bq42J4w6CIuS](https://colab.research.google.com/drive/1ahCQeBJIHPTJxgQoo0rsjTCIkvUzW8v4)).
-5. 
-   ----------------------------------------------------------------------------------------------------------------------------------------------
-   
+4. [notebook4.ipynb]((https://colab.research.google.com/drive/1ahCQeBJIHPTJxgQoo0rsjTCIkvUzW8v4)
+
 ## Approaches:
 
 ## <small>Approach 2: Generate abstracts that provide a clear and concise summary of the article.</small>
